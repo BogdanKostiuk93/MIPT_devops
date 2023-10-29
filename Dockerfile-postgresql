@@ -1,0 +1,7 @@
+# Dockerfile-postgresql
+FROM postgres:latest
+
+# Установка переменных окружения для создания пользователя и базы данных
+ENV POSTGRES_USER=test
+ENV POSTGRES_PASSWORD=test
+ENV POSTGRES_DB=test

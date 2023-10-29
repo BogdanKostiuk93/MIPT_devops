@@ -1,0 +1,5 @@
+# Dockerfile-nginx
+FROM nginx:alpine
+
+# Заменяем стандартный конфиг на наш конфиг
+COPY nginx.conf /etc/nginx/conf.d/default.conf
